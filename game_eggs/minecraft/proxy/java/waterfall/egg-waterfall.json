@@ -74,6 +74,15 @@
             "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
+        },
+        {
+            "name": "Server Memory",
+            "description": "The build number for the paper release.\r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest.",
+            "env_variable": "JVM_MEMORY",
+            "default_value": "1024",
+            "user_viewable": false,
+            "user_editable": false,
+            "rules": "required|string|max:20"
         }
     ]
 }
