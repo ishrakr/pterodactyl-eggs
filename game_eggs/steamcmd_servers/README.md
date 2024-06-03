@@ -6,6 +6,10 @@ This is a collection of servers that use SteamCMD to install.
 
 [7 Days To Die](7_days_to_die)
 
+## ARK: Survival Ascended
+
+[ARK: Survival Ascended](ark_survival_ascended)
+
 ## ARK: Survival Evolved
 
 [ARK: Survival Evolved](ark_survival_evolved)
@@ -19,6 +23,10 @@ This is a collection of servers that use SteamCMD to install.
 ## Assetto Corsa
 
 [Assetto Corsa](assetto_corsa)
+
+## Astro Colony
+
+[Astro Colony](astro_colony)
 
 ## Avorion
 
@@ -40,6 +48,10 @@ This is a collection of servers that use SteamCMD to install.
 
 [citadel](citadel)
 
+## Colony Survival
+
+[Colony Survival](colony_survival)
+
 ## Conan Exiles
 
 [Conan Exiles](conan_exiles)
@@ -47,6 +59,10 @@ This is a collection of servers that use SteamCMD to install.
 ## Core Keeper
 
 [Core Keeper](core_keeper)
+
+## Counter-Strike
+
+[Counter-Strike](counter_strike)
 
 ## Craftopia
 
@@ -60,6 +76,13 @@ This is a collection of servers that use SteamCMD to install.
 
 [DayZ (Experimental)](dayz-experimental)
 
+## DDNet
+[DDNet](ddnet)
+
+## Dead Matter
+
+[Dead Matter](dead_matter)
+
 ## Don't Starve Together
 
 [Don't Starve Together](dont_starve)
@@ -71,6 +94,10 @@ This is a collection of servers that use SteamCMD to install.
 ## Empyrion
 
 [Empyrion - Galactic Survival](empyrion)
+
+## Enshrouded
+
+[Enshrouded](enshrouded)
 
 ## Fistful of Frags
 
@@ -93,6 +120,10 @@ This is a collection of servers that use SteamCMD to install.
 ## Holdfast: Nations At War
 
 [Holdfast: Nations At War](holdfast)
+
+## HumanitZ
+
+[HumanitZ](humanitz)
 
 ## Hurtworld
 
@@ -122,6 +153,9 @@ This is a collection of servers that use SteamCMD to install.
 
 [Left 4 Dead](left4dead_2)
 
+## Longvinter
+[Longvinter](longvinter)
+
 ## Modiverse
 
 [Modiverse](modiverse)
@@ -130,6 +164,18 @@ This is a collection of servers that use SteamCMD to install.
 
 [Mordhau](mordhau)
 
+## Mount & Blade II: Bannerlord
+
+[Mount & Blade II: Bannerlord](mount_blade_II_bannerlord)
+
+## Myth of Empires
+
+[Myth of Empires](myth_of_empires)
+
+## Necesse
+
+[Necesse](necesse)
+
 ## Neos VR
 [Neos VR](neosvr)
 
@@ -137,9 +183,17 @@ This is a collection of servers that use SteamCMD to install.
 
 [No More Room in Hell](nmrih)
 
+## No Love Lost
+
+[No Love Lost](no_love_lost)
+
 ## No One Survived
 
 [No One Survived](no_one_survived)
+
+## Nova-Life: Amboise
+
+[Nova-Life: Amboise](novalife_amboise)
 
 ## Onset
 
@@ -152,6 +206,10 @@ This is a collection of servers that use SteamCMD to install.
 ## Operation Harsh Doorstop
 
 [Operation Harsh Doorstop](operation_harsh_doorstop)
+
+## Palworld
+
+[Palworld](palworld)
 
 ## Pavlov VR
 
@@ -176,6 +234,9 @@ This is a collection of servers that use SteamCMD to install.
 ## Quake Live
 
 [Quake Live](quake_live)
+
+## Resonite
+[Resonite](resonite)
 
 ## Rising World
 
@@ -202,7 +263,10 @@ This is a collection of servers that use SteamCMD to install.
 * [SCP: Secret Laboratory](scpsl)
   * [dedicated](scpsl/dedicated)
   * [exiled](scpsl/exiled)
-  * [multiadmin](scpsl/multiadmin)
+
+## Smalland: Survive the Wilds
+
+[Smalland: Survive the Wilds](smalland_survive_the_wilds)
 
 ## Solace Crafting
 
@@ -233,6 +297,8 @@ This is a collection of servers that use SteamCMD to install.
 ## Stationeers
 
 [Stationeers](stationeers)
+  * [Stationeers Vanilla](stationeers/stationeers_vanilla)
+  * [Stationeers BepInEx](stationeers/stationeers_bepinex)
 
 ## Stormworks: Build and Rescue
 
@@ -254,9 +320,17 @@ This is a collection of servers that use SteamCMD to install.
 
 [Team Fortress 2 Classic](team_fortress_2_classic)
 
+## TerraTech Worlds
+
+[TerraTech Worlds](terratech_worlds)
+
 ## The Forest
 
 [The Forest](the_forest)
+
+## The Front
+
+[The Front](thefront)
 
 ## The Isle
 
@@ -289,3 +363,10 @@ This is a collection of servers that use SteamCMD to install.
   * [Valheim Vanilla](valheim/valheim_vanilla)
   * [Valheim BepInEx](valheim/valheim_bepinex)
   * [Valheim Plus Mod](valheim/valheim_plus)
+
+## VEIN
+
+[VEIN](vein)
+
+## Wurm Unlimited
+[Wurm Unlimited](wurm_unlimited/)
