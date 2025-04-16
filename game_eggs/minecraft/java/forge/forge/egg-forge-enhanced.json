@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-06-04T21:29:47+06:00",
+    "exported_at": "2025-04-17T01:40:03+06:00",
     "name": "Forge Enhanced",
     "author": "parker@parkervcp.com",
     "description": "Minecraft Forge Server. Minecraft Forge is a modding API (Application Programming Interface), which makes it easier to create mods, and also make sure mods are compatible with each other.",
@@ -38,14 +38,13 @@
     },
     "variables": [
         {
-            "name": "Server Jar File",
-            "description": "The name of the Jarfile to use when running Forge version below 1.17.",
-            "env_variable": "SERVER_JARFILE",
-            "default_value": "server.jar",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|regex:\/^([\\w\\d._-]+)(\\.jar)$\/",
-            "field_type": "text"
+            "name": "JVM Memory Allocation",
+            "description": "The amount of memory allocated to JVM.",
+            "env_variable": "JVM_MEMORY",
+            "default_value": "1024",
+            "user_viewable": false,
+            "user_editable": false,
+            "rules": "required|string|max:20"
         },
         {
             "name": "Minecraft Version",
@@ -55,16 +54,6 @@
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:9",
-            "field_type": "text"
-        },
-        {
-            "name": "Build Type",
-            "description": "The type of server jar to download from forge.\r\n\r\nValid types are \"recommended\" and \"latest\".",
-            "env_variable": "BUILD_TYPE",
-            "default_value": "recommended",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|string|in:recommended,latest",
             "field_type": "text"
         },
         {
@@ -78,13 +67,23 @@
             "field_type": "text"
         },
         {
-            "name": "Server Memory",
-            "description": "",
-            "env_variable": "JVM_MEMORY",
-            "default_value": "1024",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "required|string|max:20",
+            "name": "Build Type",
+            "description": "The type of server jar to download from forge.\r\n\r\nValid types are \"recommended\" and \"latest\".",
+            "env_variable": "BUILD_TYPE",
+            "default_value": "recommended",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|in:recommended,latest",
+            "field_type": "text"
+        },
+        {
+            "name": "Server Jar File",
+            "description": "The name of the Jarfile to use when running Forge version below 1.17.",
+            "env_variable": "SERVER_JARFILE",
+            "default_value": "server.jar",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|regex:\/^([\\w\\d._-]+)(\\.jar)$\/",
             "field_type": "text"
         }
     ]

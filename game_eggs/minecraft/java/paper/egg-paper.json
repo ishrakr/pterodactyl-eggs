@@ -38,6 +38,15 @@
     },
     "variables": [
         {
+            "name": "JVM Memory Allocation",
+            "description": "The amount of memory allocated to JVM.",
+            "env_variable": "JVM_MEMORY",
+            "default_value": "1024",
+            "user_viewable": false,
+            "user_editable": false,
+            "rules": "required|string|max:20"
+        },
+        {
             "name": "Minecraft Version",
             "description": "The version of minecraft to download. \r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest.",
             "env_variable": "MINECRAFT_VERSION",
@@ -45,15 +54,6 @@
             "user_viewable": true,
             "user_editable": true,
             "rules": "nullable|string|max:20"
-        },
-        {
-            "name": "Server Jar File",
-            "description": "The name of the server jarfile to run the server with.",
-            "env_variable": "SERVER_JARFILE",
-            "default_value": "server.jar",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|regex:\/^([\\w\\d._-]+)(\\.jar)$\/"
         },
         {
             "name": "Download Path",
@@ -74,13 +74,13 @@
             "rules": "required|string|max:20"
         },
         {
-            "name": "Server Memory",
-            "description": "The build number for the paper release.\r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest.",
-            "env_variable": "JVM_MEMORY",
-            "default_value": "1024",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "required|string|max:20"
+            "name": "Server Jar File",
+            "description": "The name of the server jarfile to run the server with.",
+            "env_variable": "SERVER_JARFILE",
+            "default_value": "server.jar",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|regex:\/^([\\w\\d._-]+)(\\.jar)$\/"
         }
     ]
 }
